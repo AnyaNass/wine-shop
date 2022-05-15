@@ -35,9 +35,6 @@ body {
 	z-index: 5;
 	width: 100%;
 	top: 1%;
-	@media (min-width:768px) {
-		top: 5%;
-	}
 	.header_top{
 		display: flex;
 		justify-content: space-between;
