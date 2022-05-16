@@ -110,6 +110,10 @@ body {
 		justify-content: center;
 		list-style-type: none;
 		margin: 170px 0 0;
+		@media (min-width:768px){
+			margin: 230px 0 0;
+		}
+		
 		li{
 			padding: 10px 25px;
 			background-color: #99862A;
