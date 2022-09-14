@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/styles.css">
-	<title>Document</title>
+	<title>St. Anna`s bar</title>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
 			</header>
 			<main class="main">
 				<div class="container">
-					<section class="banner" style="background-image: url('img/banner.jpg');">
+					<section class="banner">
 						<h1>St. Anna's bar</h1>
 						<ul class="banner_buttons">
 							<li><a class="button" href="#">винна карта</a></li>
@@ -103,14 +103,17 @@
 							</div>
 							<div class="novelties-pictures">
 								<div class="novelties-pictures-main">
-									<img src="img/novelties/wine1.jpg" alt="wine">
+									<img srcset="img/novelties/wine1.jpg 1x, img/novelties/wine1@2x.jpg 2x"
+										src="img/novelties/wine1.jpg" alt="wine" loading="lazy">
 								</div>
 								<div class="novelties-pictures-row">
 									<div>
-										<img src="img/novelties/wine2.jpg" alt="wine">
+										<img srcset="img/novelties/wine2.jpg 1x, img/novelties/wine2@2x.jpg 2x"
+											src="img/novelties/wine2.jpg" alt="wine" loading="lazy">
 									</div>
 									<div>
-										<img src="img/novelties/wine3.jpg" alt="wine">
+										<img srcset="img/novelties/wine3.jpg 1x, img/novelties/wine3@2x.jpg 2x"
+											src="img/novelties/wine3.jpg" alt="wine" loading="lazy">
 									</div>
 								</div>
 							</div>
@@ -119,7 +122,8 @@
 					<section class="entry-form">
 						<h2>Запис на дегустацію</h2>
 						<div class="entry-form-text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet
+								adipiscing. Pellentesque nisi, mi sit non sit sed fermentum.</p>
 						</div>
 						<form>
 							<input type="text" placeholder="Ім'я">
@@ -128,8 +132,8 @@
 								<option value="adress-1" selected>Проспект Тракторобудівників 158/82</option>
 								<option value="adress-2">Липове 17</option>
 							</select>
-							<input type="submit" value="Записатися">
-						</form>						
+							<input class="form-btn" type="submit" value="Записатися">
+						</form>
 					</section>
 				</div>
 			</main>
@@ -151,11 +155,11 @@
 					<li>
 						<ul class="social-links">
 							<li><a href="#" target="_blank">
-								<img src="img/footer/youtube.png" alt="youtube">
-							</a></li>
+									<img src="img/footer/youtube.png" alt="youtube">
+								</a></li>
 							<li><a href="#" target="_blank">
-								<img src="img/footer/facebook.png" alt="facebook">
-							</a></li>
+									<img src="img/footer/facebook.png" alt="facebook">
+								</a></li>
 						</ul>
 					</li>
 					<li>Copyright 2022</li>
